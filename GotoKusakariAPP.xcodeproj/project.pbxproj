@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BBF1186DA9722559F4DA08A /* Pods_GotoKusakariAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF3824F155E773E15A6A47F /* Pods_GotoKusakariAPP.framework */; };
+		34116ED528EFDC9700EEAEFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34116ED428EFDC9700EEAEFE /* AppDelegate.swift */; };
+		34116ED728EFDC9700EEAEFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34116ED628EFDC9700EEAEFE /* SceneDelegate.swift */; };
+		34116ED928EFDC9700EEAEFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34116ED828EFDC9700EEAEFE /* ViewController.swift */; };
+		34116EDC28EFDC9700EEAEFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34116EDA28EFDC9700EEAEFE /* Main.storyboard */; };
+		34116EDE28EFDC9900EEAEFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34116EDD28EFDC9900EEAEFE /* Assets.xcassets */; };
+		34116EE128EFDC9900EEAEFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34116EDF28EFDC9900EEAEFE /* LaunchScreen.storyboard */; };
+		34251C772A60CCD800829E3F /* FacebookLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34251C762A60CCD800829E3F /* FacebookLoginViewController.swift */; };
+		34251C792A60D21300829E3F /* FacebookProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34251C782A60D21300829E3F /* FacebookProfileViewController.swift */; };
+		343CE35B2AF4CD61004E77B1 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 343CE35A2AF4CD61004E77B1 /* profile.png */; };
+		343CE35D2AF63716004E77B1 /* shoki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 343CE35C2AF63716004E77B1 /* shoki.jpg */; };
+		343CE3612AF6F281004E77B1 /* mushiyoke_toumei.png in Resources */ = {isa = PBXBuildFile; fileRef = 343CE35E2AF6F280004E77B1 /* mushiyoke_toumei.png */; };
+		343CE3622AF6F281004E77B1 /* tablet_toumei.png in Resources */ = {isa = PBXBuildFile; fileRef = 343CE35F2AF6F281004E77B1 /* tablet_toumei.png */; };
+		343CE3632AF6F281004E77B1 /* mizu_toumei.png in Resources */ = {isa = PBXBuildFile; fileRef = 343CE3602AF6F281004E77B1 /* mizu_toumei.png */; };
+		343CE3652AF9CA8F004E77B1 /* FBLoginBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343CE3642AF9CA8E004E77B1 /* FBLoginBaseView.swift */; };
+		344DE0C72A11BDAC0046D06F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344DE0C62A11BDAC0046D06F /* Message.swift */; };
+		344DE0DF2A1249940046D06F /* moto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 344DE0DE2A1249940046D06F /* moto.jpg */; };
+		345777A82972418100755667 /* FSCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345777A72972418100755667 /* FSCalendarViewController.swift */; };
+		345777AA2972490B00755667 /* iconcalendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 345777A92972490B00755667 /* iconcalendar.png */; };
+		3457A59C290E05F90069DFD6 /* Storyboardsignin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3457A59B290E05F90069DFD6 /* Storyboardsignin.storyboard */; };
+		3457A59E290E0D7E0069DFD6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3457A59D290E0D7E0069DFD6 /* ProfileViewController.swift */; };
+		3457A5A0290E0DB50069DFD6 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3457A59F290E0DB50069DFD6 /* TermsViewController.swift */; };
+		3457A5A2290E0DCF0069DFD6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3457A5A1290E0DCF0069DFD6 /* SignUpViewController.swift */; };
+		3457A5A4290E9F830069DFD6 /* barfour.png in Resources */ = {isa = PBXBuildFile; fileRef = 3457A5A3290E9F830069DFD6 /* barfour.png */; };
+		3457A5A6290E9F880069DFD6 /* barthree.png in Resources */ = {isa = PBXBuildFile; fileRef = 3457A5A5290E9F880069DFD6 /* barthree.png */; };
+		3457A5A8290E9F8F0069DFD6 /* bartwo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3457A5A7290E9F8F0069DFD6 /* bartwo.png */; };
+		3457A5AA290E9F950069DFD6 /* barone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3457A5A9290E9F950069DFD6 /* barone.png */; };
+		3457A5AC292C4D690069DFD6 /* ProfileEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3457A5AB292C4D690069DFD6 /* ProfileEditorViewController.swift */; };
+		3457A5AE292C51A50069DFD6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3457A5AD292C51A50069DFD6 /* User.swift */; };
+		3459B44329DA6A9700653CEF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3459B44229DA6A9700653CEF /* GoogleService-Info.plist */; };
+		3459B44529E39C5000653CEF /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459B44429E39C5000653CEF /* UserListViewController.swift */; };
+		3459B44729E785F000653CEF /* FirstSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459B44629E785EF00653CEF /* FirstSelectionViewController.swift */; };
+		3459B44929E78F2100653CEF /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3459B44829E78F2100653CEF /* ChatRoom.swift */; };
+		3459B45029EB64F900653CEF /* greenlabel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3459B44E29EB64F900653CEF /* greenlabel.png */; };
+		3459B45129EB64F900653CEF /* yellowlabel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3459B44F29EB64F900653CEF /* yellowlabel.png */; };
+		3459B45529EBC1FB00653CEF /* iconkuruma.png in Resources */ = {isa = PBXBuildFile; fileRef = 3459B45229EBC1FA00653CEF /* iconkuruma.png */; };
+		3459B45629EBC1FB00653CEF /* iconkama.png in Resources */ = {isa = PBXBuildFile; fileRef = 3459B45329EBC1FB00653CEF /* iconkama.png */; };
+		3459B45729EBC1FB00653CEF /* iconkusakariki.png in Resources */ = {isa = PBXBuildFile; fileRef = 3459B45429EBC1FB00653CEF /* iconkusakariki.png */; };
+		345F18692A92E95B00B51A54 /* fukusou_tsubakineko_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 345F18682A92E95B00B51A54 /* fukusou_tsubakineko_2.png */; };
+		346C4197295A96AC00B39CBE /* CustumHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C4196295A96AC00B39CBE /* CustumHeader.swift */; };
+		346C4199296CF61D00B39CBE /* UserPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C4198296CF61D00B39CBE /* UserPageViewController.swift */; };
+		346C55DF2A8337E9008998C0 /* fukusou_tsubakineko_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C55DA2A8337E7008998C0 /* fukusou_tsubakineko_4.png */; };
+		346C55E02A8337E9008998C0 /* fukusou_tsubakineko_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C55DB2A8337E8008998C0 /* fukusou_tsubakineko_1.png */; };
+		346C55E12A8337E9008998C0 /* fukusou_tsubakineko_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C55DC2A8337E8008998C0 /* fukusou_tsubakineko_5.png */; };
+		346C55E22A8337E9008998C0 /* fukusou_tsubakineko_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C55DD2A8337E8008998C0 /* fukusou_tsubakineko_3.png */; };
+		347937EA2AC4FA1300B64F5E /* kusakarinakama.png in Resources */ = {isa = PBXBuildFile; fileRef = 347937E92AC4FA1300B64F5E /* kusakarinakama.png */; };
+		348016A52A24AA6E00102CC3 /* rule2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 348016A42A24AA6E00102CC3 /* rule2.jpg */; };
+		348016A72A24AA9E00102CC3 /* rule3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 348016A62A24AA9E00102CC3 /* rule3.jpg */; };
+		348016A92A24AAF300102CC3 /* rule4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 348016A82A24AAF300102CC3 /* rule4.jpg */; };
+		348016AD2A24ABE800102CC3 /* rule1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 348016AC2A24ABE800102CC3 /* rule1.jpg */; };
+		348016B12A26ECDD00102CC3 /* kounou_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 348016AE2A26ECDD00102CC3 /* kounou_2.jpg */; };
+		348016B22A26ECDD00102CC3 /* kounou_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 348016AF2A26ECDD00102CC3 /* kounou_3.jpg */; };
+		348016B32A26ECDD00102CC3 /* kounou_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 348016B02A26ECDD00102CC3 /* kounou_1.jpg */; };
+		348016B72A26ED4400102CC3 /* tejyun_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 348016B42A26ED4400102CC3 /* tejyun_3.jpg */; };
+		348016B82A26ED4400102CC3 /* tejyun_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 348016B52A26ED4400102CC3 /* tejyun_1.jpg */; };
+		348016B92A26ED4400102CC3 /* tejyun_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 348016B62A26ED4400102CC3 /* tejyun_2.jpg */; };
+		348016BB2A26ED4900102CC3 /* tejyun_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 348016BA2A26ED4900102CC3 /* tejyun_4.jpg */; };
+		34AF1E24299332100037ADB2 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF1E23299332100037ADB2 /* ChatListViewController.swift */; };
+		34AF1E262993378C0037ADB2 /* _38A8545.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34AF1E252993378C0037ADB2 /* _38A8545.jpeg */; };
+		34AF1E28299337B00037ADB2 /* madoka.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34AF1E27299337B00037ADB2 /* madoka.jpeg */; };
+		34AF1E2A299363660037ADB2 /* 277107434_4951905911565765_1442748334683742375_n.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34AF1E29299363660037ADB2 /* 277107434_4951905911565765_1442748334683742375_n.jpeg */; };
+		34AF1E2C2999C0190037ADB2 /* ChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF1E2B2999C0190037ADB2 /* ChatRoomViewController.swift */; };
+		34AF1E2F2999C20F0037ADB2 /* ChatRoomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF1E2D2999C20E0037ADB2 /* ChatRoomTableViewCell.swift */; };
+		34AF1E302999C20F0037ADB2 /* ChatRoomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34AF1E2E2999C20E0037ADB2 /* ChatRoomTableViewCell.xib */; };
+		34AF1E3C29AD8EFD0037ADB2 /* ChatInputAccesoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF1E3B29AD8EFD0037ADB2 /* ChatInputAccesoryView.swift */; };
+		34AF1E3E29AD8FA20037ADB2 /* ChatInputAccesoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34AF1E3D29AD8FA10037ADB2 /* ChatInputAccesoryView.xib */; };
+		34B7BAF62947F686004F420E /* iconquestion.png in Resources */ = {isa = PBXBuildFile; fileRef = 34B7BAF22947F685004F420E /* iconquestion.png */; };
+		34B7BAF72947F686004F420E /* iconpraise.png in Resources */ = {isa = PBXBuildFile; fileRef = 34B7BAF32947F686004F420E /* iconpraise.png */; };
+		34B7BAF92947F686004F420E /* iconprofileedit.png in Resources */ = {isa = PBXBuildFile; fileRef = 34B7BAF52947F686004F420E /* iconprofileedit.png */; };
+		34B7BAFD2948016D004F420E /* iconchat.png in Resources */ = {isa = PBXBuildFile; fileRef = 34B7BAFC2948016C004F420E /* iconchat.png */; };
+		34B7BAFF29480551004F420E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B7BAFE29480550004F420E /* SignInViewController.swift */; };
+		34B7BB0329480F8D004F420E /* iconweed.png in Resources */ = {isa = PBXBuildFile; fileRef = 34B7BB0029480F8D004F420E /* iconweed.png */; };
+		34C0386C29558786008AFDC3 /* QAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0386B29558786008AFDC3 /* QAViewController.swift */; };
+		34CF82762A32A89E00426186 /* KusakariDateSaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CF82752A32A89D00426186 /* KusakariDateSaveViewController.swift */; };
+		34CF82782A32ABE700426186 /* Candidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CF82772A32ABE700426186 /* Candidate.swift */; };
+		34CF827A2A32AFA300426186 /* CandidateListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CF82792A32AFA300426186 /* CandidateListViewController.swift */; };
+		34CF827D2A36F34400426186 /* checkboxwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 34CF827B2A36F34400426186 /* checkboxwhite.png */; };
+		34CF82822A36F98500426186 /* checkboxgreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 34CF82812A36F98500426186 /* checkboxgreen.png */; };
+		34D9E4382A1177B6009750F2 /* SigninMeritViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D9E4372A1177B6009750F2 /* SigninMeritViewController.swift */; };
+		34D9E43A2A117C80009750F2 /* SigninItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D9E4392A117C80009750F2 /* SigninItemViewController.swift */; };
+		34D9E43C2A117CA2009750F2 /* SigninRulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D9E43B2A117CA2009750F2 /* SigninRulesViewController.swift */; };
+		34D9E43E2A117CC2009750F2 /* SigninProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D9E43D2A117CC2009750F2 /* SigninProcessViewController.swift */; };
+		34DF39E12978D47000C06D02 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DF39E02978D47000C06D02 /* MapViewController.swift */; };
+		34F3F2E02A1C339400609796 /* iphoneicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34F3F2DF2A1C339300609796 /* iphoneicon.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A00EDAE2B28419200C35F1D /* GotoKusakariAPP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GotoKusakariAPP.entitlements; sourceTree = "<group>"; };
+		34116ED128EFDC9700EEAEFE /* GotoKusakariAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GotoKusakariAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34116ED428EFDC9700EEAEFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34116ED628EFDC9700EEAEFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34116ED828EFDC9700EEAEFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34116EDB28EFDC9700EEAEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34116EDD28EFDC9900EEAEFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34116EE028EFDC9900EEAEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34116EE228EFDC9900EEAEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34251C762A60CCD800829E3F /* FacebookLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLoginViewController.swift; sourceTree = "<group>"; };
+		34251C782A60D21300829E3F /* FacebookProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookProfileViewController.swift; sourceTree = "<group>"; };
+		343CE35A2AF4CD61004E77B1 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		343CE35C2AF63716004E77B1 /* shoki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoki.jpg; sourceTree = "<group>"; };
+		343CE35E2AF6F280004E77B1 /* mushiyoke_toumei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mushiyoke_toumei.png; sourceTree = "<group>"; };
+		343CE35F2AF6F281004E77B1 /* tablet_toumei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tablet_toumei.png; sourceTree = "<group>"; };
+		343CE3602AF6F281004E77B1 /* mizu_toumei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mizu_toumei.png; sourceTree = "<group>"; };
+		343CE3642AF9CA8E004E77B1 /* FBLoginBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLoginBaseView.swift; sourceTree = "<group>"; };
+		344DE0C62A11BDAC0046D06F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		344DE0DE2A1249940046D06F /* moto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moto.jpg; sourceTree = "<group>"; };
+		345777A72972418100755667 /* FSCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSCalendarViewController.swift; sourceTree = "<group>"; };
+		345777A92972490B00755667 /* iconcalendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconcalendar.png; sourceTree = "<group>"; };
+		3457A59B290E05F90069DFD6 /* Storyboardsignin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboardsignin.storyboard; sourceTree = "<group>"; };
+		3457A59D290E0D7E0069DFD6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3457A59F290E0DB50069DFD6 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		3457A5A1290E0DCF0069DFD6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3457A5A3290E9F830069DFD6 /* barfour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barfour.png; sourceTree = "<group>"; };
+		3457A5A5290E9F880069DFD6 /* barthree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barthree.png; sourceTree = "<group>"; };
+		3457A5A7290E9F8F0069DFD6 /* bartwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bartwo.png; sourceTree = "<group>"; };
+		3457A5A9290E9F950069DFD6 /* barone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barone.png; sourceTree = "<group>"; };
+		3457A5AB292C4D690069DFD6 /* ProfileEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditorViewController.swift; sourceTree = "<group>"; };
+		3457A5AD292C51A50069DFD6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3459B44229DA6A9700653CEF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3459B44429E39C5000653CEF /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		3459B44629E785EF00653CEF /* FirstSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSelectionViewController.swift; sourceTree = "<group>"; };
+		3459B44829E78F2100653CEF /* ChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
+		3459B44E29EB64F900653CEF /* greenlabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenlabel.png; sourceTree = "<group>"; };
+		3459B44F29EB64F900653CEF /* yellowlabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowlabel.png; sourceTree = "<group>"; };
+		3459B45229EBC1FA00653CEF /* iconkuruma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconkuruma.png; sourceTree = "<group>"; };
+		3459B45329EBC1FB00653CEF /* iconkama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconkama.png; sourceTree = "<group>"; };
+		3459B45429EBC1FB00653CEF /* iconkusakariki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconkusakariki.png; sourceTree = "<group>"; };
+		345F18662A92E86500B51A54 /* FSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		345F18682A92E95B00B51A54 /* fukusou_tsubakineko_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fukusou_tsubakineko_2.png; sourceTree = "<group>"; };
+		346C4196295A96AC00B39CBE /* CustumHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustumHeader.swift; sourceTree = "<group>"; };
+		346C4198296CF61D00B39CBE /* UserPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPageViewController.swift; sourceTree = "<group>"; };
+		346C55DA2A8337E7008998C0 /* fukusou_tsubakineko_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fukusou_tsubakineko_4.png; sourceTree = "<group>"; };
+		346C55DB2A8337E8008998C0 /* fukusou_tsubakineko_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fukusou_tsubakineko_1.png; sourceTree = "<group>"; };
+		346C55DC2A8337E8008998C0 /* fukusou_tsubakineko_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fukusou_tsubakineko_5.png; sourceTree = "<group>"; };
+		346C55DD2A8337E8008998C0 /* fukusou_tsubakineko_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fukusou_tsubakineko_3.png; sourceTree = "<group>"; };
+		347937E92AC4FA1300B64F5E /* kusakarinakama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kusakarinakama.png; sourceTree = "<group>"; };
+		348016A42A24AA6E00102CC3 /* rule2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rule2.jpg; sourceTree = "<group>"; };
+		348016A62A24AA9E00102CC3 /* rule3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rule3.jpg; sourceTree = "<group>"; };
+		348016A82A24AAF300102CC3 /* rule4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rule4.jpg; sourceTree = "<group>"; };
+		348016AC2A24ABE800102CC3 /* rule1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rule1.jpg; sourceTree = "<group>"; };
+		348016AE2A26ECDD00102CC3 /* kounou_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kounou_2.jpg; sourceTree = "<group>"; };
+		348016AF2A26ECDD00102CC3 /* kounou_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kounou_3.jpg; sourceTree = "<group>"; };
+		348016B02A26ECDD00102CC3 /* kounou_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kounou_1.jpg; sourceTree = "<group>"; };
+		348016B42A26ED4400102CC3 /* tejyun_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tejyun_3.jpg; sourceTree = "<group>"; };
+		348016B52A26ED4400102CC3 /* tejyun_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tejyun_1.jpg; sourceTree = "<group>"; };
+		348016B62A26ED4400102CC3 /* tejyun_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tejyun_2.jpg; sourceTree = "<group>"; };
+		348016BA2A26ED4900102CC3 /* tejyun_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tejyun_4.jpg; sourceTree = "<group>"; };
+		34AF1E23299332100037ADB2 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		34AF1E252993378C0037ADB2 /* _38A8545.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = _38A8545.jpeg; sourceTree = "<group>"; };
+		34AF1E27299337B00037ADB2 /* madoka.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = madoka.jpeg; sourceTree = "<group>"; };
+		34AF1E29299363660037ADB2 /* 277107434_4951905911565765_1442748334683742375_n.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 277107434_4951905911565765_1442748334683742375_n.jpeg; sourceTree = "<group>"; };
+		34AF1E2B2999C0190037ADB2 /* ChatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewController.swift; sourceTree = "<group>"; };
+		34AF1E2D2999C20E0037ADB2 /* ChatRoomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomTableViewCell.swift; sourceTree = "<group>"; };
+		34AF1E2E2999C20E0037ADB2 /* ChatRoomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatRoomTableViewCell.xib; sourceTree = "<group>"; };
+		34AF1E3B29AD8EFD0037ADB2 /* ChatInputAccesoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInputAccesoryView.swift; sourceTree = "<group>"; };
+		34AF1E3D29AD8FA10037ADB2 /* ChatInputAccesoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatInputAccesoryView.xib; sourceTree = "<group>"; };
+		34B7BAF22947F685004F420E /* iconquestion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconquestion.png; sourceTree = "<group>"; };
+		34B7BAF32947F686004F420E /* iconpraise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconpraise.png; sourceTree = "<group>"; };
+		34B7BAF52947F686004F420E /* iconprofileedit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconprofileedit.png; sourceTree = "<group>"; };
+		34B7BAFC2948016C004F420E /* iconchat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconchat.png; sourceTree = "<group>"; };
+		34B7BAFE29480550004F420E /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		34B7BB0029480F8D004F420E /* iconweed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconweed.png; sourceTree = "<group>"; };
+		34C0386B29558786008AFDC3 /* QAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAViewController.swift; sourceTree = "<group>"; };
+		34CF82752A32A89D00426186 /* KusakariDateSaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KusakariDateSaveViewController.swift; sourceTree = "<group>"; };
+		34CF82772A32ABE700426186 /* Candidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candidate.swift; sourceTree = "<group>"; };
+		34CF82792A32AFA300426186 /* CandidateListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateListViewController.swift; sourceTree = "<group>"; };
+		34CF827B2A36F34400426186 /* checkboxwhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkboxwhite.png; sourceTree = "<group>"; };
+		34CF82812A36F98500426186 /* checkboxgreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkboxgreen.png; sourceTree = "<group>"; };
+		34D9E4372A1177B6009750F2 /* SigninMeritViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninMeritViewController.swift; sourceTree = "<group>"; };
+		34D9E4392A117C80009750F2 /* SigninItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninItemViewController.swift; sourceTree = "<group>"; };
+		34D9E43B2A117CA2009750F2 /* SigninRulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninRulesViewController.swift; sourceTree = "<group>"; };
+		34D9E43D2A117CC2009750F2 /* SigninProcessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninProcessViewController.swift; sourceTree = "<group>"; };
+		34DF39E02978D47000C06D02 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		34F3F2DF2A1C339300609796 /* iphoneicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphoneicon.jpg; sourceTree = "<group>"; };
+		6DF3824F155E773E15A6A47F /* Pods_GotoKusakariAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GotoKusakariAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F3C6EF9618683B2ED8D4ED /* Pods-GotoKusakariAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GotoKusakariAPP.release.xcconfig"; path = "Target Support Files/Pods-GotoKusakariAPP/Pods-GotoKusakariAPP.release.xcconfig"; sourceTree = "<group>"; };
+		C2A3A923EE3C797C7E13D820 /* Pods-GotoKusakariAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GotoKusakariAPP.debug.xcconfig"; path = "Target Support Files/Pods-GotoKusakariAPP/Pods-GotoKusakariAPP.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34116ECE28EFDC9700EEAEFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBF1186DA9722559F4DA08A /* Pods_GotoKusakariAPP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03D5C2FD3EC93C612DED9191 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				345F18662A92E86500B51A54 /* FSCalendar.framework */,
+				6DF3824F155E773E15A6A47F /* Pods_GotoKusakariAPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34116EC828EFDC9700EEAEFE = {
+			isa = PBXGroup;
+			children = (
+				34116ED328EFDC9700EEAEFE /* GotoKusakariAPP */,
+				34116ED228EFDC9700EEAEFE /* Products */,
+				80E0C25900F78FE913A94BAF /* Pods */,
+				03D5C2FD3EC93C612DED9191 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34116ED228EFDC9700EEAEFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34116ED128EFDC9700EEAEFE /* GotoKusakariAPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34116ED328EFDC9700EEAEFE /* GotoKusakariAPP */ = {
+			isa = PBXGroup;
+			children = (
+				2A00EDAE2B28419200C35F1D /* GotoKusakariAPP.entitlements */,
+				34116ED428EFDC9700EEAEFE /* AppDelegate.swift */,
+				34CF82752A32A89D00426186 /* KusakariDateSaveViewController.swift */,
+				34116ED628EFDC9700EEAEFE /* SceneDelegate.swift */,
+				3457A5AD292C51A50069DFD6 /* User.swift */,
+				3459B44829E78F2100653CEF /* ChatRoom.swift */,
+				344DE0C62A11BDAC0046D06F /* Message.swift */,
+				34CF82772A32ABE700426186 /* Candidate.swift */,
+				34116ED828EFDC9700EEAEFE /* ViewController.swift */,
+				345777A72972418100755667 /* FSCalendarViewController.swift */,
+				3457A59D290E0D7E0069DFD6 /* ProfileViewController.swift */,
+				34C0386B29558786008AFDC3 /* QAViewController.swift */,
+				346C4196295A96AC00B39CBE /* CustumHeader.swift */,
+				3457A59F290E0DB50069DFD6 /* TermsViewController.swift */,
+				3457A5A1290E0DCF0069DFD6 /* SignUpViewController.swift */,
+				3457A5AB292C4D690069DFD6 /* ProfileEditorViewController.swift */,
+				346C4198296CF61D00B39CBE /* UserPageViewController.swift */,
+				34B7BAFE29480550004F420E /* SignInViewController.swift */,
+				3459B44429E39C5000653CEF /* UserListViewController.swift */,
+				34AF1E2B2999C0190037ADB2 /* ChatRoomViewController.swift */,
+				34AF1E2D2999C20E0037ADB2 /* ChatRoomTableViewCell.swift */,
+				34116EDA28EFDC9700EEAEFE /* Main.storyboard */,
+				34CF82792A32AFA300426186 /* CandidateListViewController.swift */,
+				3457A59B290E05F90069DFD6 /* Storyboardsignin.storyboard */,
+				34251C782A60D21300829E3F /* FacebookProfileViewController.swift */,
+				34251C762A60CCD800829E3F /* FacebookLoginViewController.swift */,
+				343CE3642AF9CA8E004E77B1 /* FBLoginBaseView.swift */,
+				34AF1E23299332100037ADB2 /* ChatListViewController.swift */,
+				34DF39E02978D47000C06D02 /* MapViewController.swift */,
+				343CE3602AF6F281004E77B1 /* mizu_toumei.png */,
+				343CE35E2AF6F280004E77B1 /* mushiyoke_toumei.png */,
+				343CE35F2AF6F281004E77B1 /* tablet_toumei.png */,
+				347937E92AC4FA1300B64F5E /* kusakarinakama.png */,
+				343CE35C2AF63716004E77B1 /* shoki.jpg */,
+				34D9E43B2A117CA2009750F2 /* SigninRulesViewController.swift */,
+				34D9E43D2A117CC2009750F2 /* SigninProcessViewController.swift */,
+				34D9E4392A117C80009750F2 /* SigninItemViewController.swift */,
+				34D9E4372A1177B6009750F2 /* SigninMeritViewController.swift */,
+				3459B44629E785EF00653CEF /* FirstSelectionViewController.swift */,
+				34AF1E3B29AD8EFD0037ADB2 /* ChatInputAccesoryView.swift */,
+				34116EDD28EFDC9900EEAEFE /* Assets.xcassets */,
+				3459B44229DA6A9700653CEF /* GoogleService-Info.plist */,
+				34AF1E3D29AD8FA10037ADB2 /* ChatInputAccesoryView.xib */,
+				34116EDF28EFDC9900EEAEFE /* LaunchScreen.storyboard */,
+				34116EE228EFDC9900EEAEFE /* Info.plist */,
+				3459B44E29EB64F900653CEF /* greenlabel.png */,
+				34AF1E2E2999C20E0037ADB2 /* ChatRoomTableViewCell.xib */,
+				348016AC2A24ABE800102CC3 /* rule1.jpg */,
+				348016A42A24AA6E00102CC3 /* rule2.jpg */,
+				348016A62A24AA9E00102CC3 /* rule3.jpg */,
+				348016A82A24AAF300102CC3 /* rule4.jpg */,
+				348016B52A26ED4400102CC3 /* tejyun_1.jpg */,
+				348016B62A26ED4400102CC3 /* tejyun_2.jpg */,
+				348016B42A26ED4400102CC3 /* tejyun_3.jpg */,
+				348016BA2A26ED4900102CC3 /* tejyun_4.jpg */,
+				348016B02A26ECDD00102CC3 /* kounou_1.jpg */,
+				343CE35A2AF4CD61004E77B1 /* profile.png */,
+				348016AE2A26ECDD00102CC3 /* kounou_2.jpg */,
+				348016AF2A26ECDD00102CC3 /* kounou_3.jpg */,
+				3459B44F29EB64F900653CEF /* yellowlabel.png */,
+				346C55DB2A8337E8008998C0 /* fukusou_tsubakineko_1.png */,
+				345F18682A92E95B00B51A54 /* fukusou_tsubakineko_2.png */,
+				346C55DD2A8337E8008998C0 /* fukusou_tsubakineko_3.png */,
+				346C55DA2A8337E7008998C0 /* fukusou_tsubakineko_4.png */,
+				346C55DC2A8337E8008998C0 /* fukusou_tsubakineko_5.png */,
+				3457A5A3290E9F830069DFD6 /* barfour.png */,
+				3457A5A5290E9F880069DFD6 /* barthree.png */,
+				34AF1E29299363660037ADB2 /* 277107434_4951905911565765_1442748334683742375_n.jpeg */,
+				344DE0DE2A1249940046D06F /* moto.jpg */,
+				3457A5A7290E9F8F0069DFD6 /* bartwo.png */,
+				3457A5A9290E9F950069DFD6 /* barone.png */,
+				34AF1E252993378C0037ADB2 /* _38A8545.jpeg */,
+				345777A92972490B00755667 /* iconcalendar.png */,
+				34B7BAFC2948016C004F420E /* iconchat.png */,
+				34AF1E27299337B00037ADB2 /* madoka.jpeg */,
+				34B7BAF32947F686004F420E /* iconpraise.png */,
+				34B7BAF52947F686004F420E /* iconprofileedit.png */,
+				34B7BAF22947F685004F420E /* iconquestion.png */,
+				3459B45329EBC1FB00653CEF /* iconkama.png */,
+				34CF82812A36F98500426186 /* checkboxgreen.png */,
+				34CF827B2A36F34400426186 /* checkboxwhite.png */,
+				3459B45229EBC1FA00653CEF /* iconkuruma.png */,
+				3459B45429EBC1FB00653CEF /* iconkusakariki.png */,
+				34B7BB0029480F8D004F420E /* iconweed.png */,
+				34F3F2DF2A1C339300609796 /* iphoneicon.jpg */,
+			);
+			path = GotoKusakariAPP;
+			sourceTree = "<group>";
+		};
+		80E0C25900F78FE913A94BAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2A3A923EE3C797C7E13D820 /* Pods-GotoKusakariAPP.debug.xcconfig */,
+				86F3C6EF9618683B2ED8D4ED /* Pods-GotoKusakariAPP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34116ED028EFDC9700EEAEFE /* GotoKusakariAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34116EE528EFDC9900EEAEFE /* Build configuration list for PBXNativeTarget "GotoKusakariAPP" */;
+			buildPhases = (
+				14EA9DBBDEE93F9C3CCF8858 /* [CP] Check Pods Manifest.lock */,
+				34116ECD28EFDC9700EEAEFE /* Sources */,
+				34116ECE28EFDC9700EEAEFE /* Frameworks */,
+				34116ECF28EFDC9700EEAEFE /* Resources */,
+				2E32D30033CC2023CA8C8FD4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GotoKusakariAPP;
+			productName = GotoKusakariAPP;
+			productReference = 34116ED128EFDC9700EEAEFE /* GotoKusakariAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34116EC928EFDC9700EEAEFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					34116ED028EFDC9700EEAEFE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 34116ECC28EFDC9700EEAEFE /* Build configuration list for PBXProject "GotoKusakariAPP" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34116EC828EFDC9700EEAEFE;
+			productRefGroup = 34116ED228EFDC9700EEAEFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34116ED028EFDC9700EEAEFE /* GotoKusakariAPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34116ECF28EFDC9700EEAEFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F3F2E02A1C339400609796 /* iphoneicon.jpg in Resources */,
+				34AF1E3E29AD8FA20037ADB2 /* ChatInputAccesoryView.xib in Resources */,
+				344DE0DF2A1249940046D06F /* moto.jpg in Resources */,
+				346C55E02A8337E9008998C0 /* fukusou_tsubakineko_1.png in Resources */,
+				34B7BAF62947F686004F420E /* iconquestion.png in Resources */,
+				34B7BAF72947F686004F420E /* iconpraise.png in Resources */,
+				345F18692A92E95B00B51A54 /* fukusou_tsubakineko_2.png in Resources */,
+				343CE3632AF6F281004E77B1 /* mizu_toumei.png in Resources */,
+				348016AD2A24ABE800102CC3 /* rule1.jpg in Resources */,
+				346C55E12A8337E9008998C0 /* fukusou_tsubakineko_5.png in Resources */,
+				3457A5A6290E9F880069DFD6 /* barthree.png in Resources */,
+				348016B32A26ECDD00102CC3 /* kounou_1.jpg in Resources */,
+				343CE3612AF6F281004E77B1 /* mushiyoke_toumei.png in Resources */,
+				3457A5A8290E9F8F0069DFD6 /* bartwo.png in Resources */,
+				34AF1E262993378C0037ADB2 /* _38A8545.jpeg in Resources */,
+				34AF1E2A299363660037ADB2 /* 277107434_4951905911565765_1442748334683742375_n.jpeg in Resources */,
+				34116EE128EFDC9900EEAEFE /* LaunchScreen.storyboard in Resources */,
+				348016A92A24AAF300102CC3 /* rule4.jpg in Resources */,
+				346C55E22A8337E9008998C0 /* fukusou_tsubakineko_3.png in Resources */,
+				348016BB2A26ED4900102CC3 /* tejyun_4.jpg in Resources */,
+				346C55DF2A8337E9008998C0 /* fukusou_tsubakineko_4.png in Resources */,
+				345777AA2972490B00755667 /* iconcalendar.png in Resources */,
+				34116EDE28EFDC9900EEAEFE /* Assets.xcassets in Resources */,
+				34AF1E302999C20F0037ADB2 /* ChatRoomTableViewCell.xib in Resources */,
+				343CE35D2AF63716004E77B1 /* shoki.jpg in Resources */,
+				343CE3622AF6F281004E77B1 /* tablet_toumei.png in Resources */,
+				34B7BAFD2948016D004F420E /* iconchat.png in Resources */,
+				3459B45129EB64F900653CEF /* yellowlabel.png in Resources */,
+				348016A52A24AA6E00102CC3 /* rule2.jpg in Resources */,
+				348016B72A26ED4400102CC3 /* tejyun_3.jpg in Resources */,
+				3457A5AA290E9F950069DFD6 /* barone.png in Resources */,
+				3459B45529EBC1FB00653CEF /* iconkuruma.png in Resources */,
+				348016B12A26ECDD00102CC3 /* kounou_2.jpg in Resources */,
+				347937EA2AC4FA1300B64F5E /* kusakarinakama.png in Resources */,
+				3459B45629EBC1FB00653CEF /* iconkama.png in Resources */,
+				343CE35B2AF4CD61004E77B1 /* profile.png in Resources */,
+				3459B45729EBC1FB00653CEF /* iconkusakariki.png in Resources */,
+				34116EDC28EFDC9700EEAEFE /* Main.storyboard in Resources */,
+				348016B92A26ED4400102CC3 /* tejyun_2.jpg in Resources */,
+				34CF82822A36F98500426186 /* checkboxgreen.png in Resources */,
+				34CF827D2A36F34400426186 /* checkboxwhite.png in Resources */,
+				34AF1E28299337B00037ADB2 /* madoka.jpeg in Resources */,
+				3457A59C290E05F90069DFD6 /* Storyboardsignin.storyboard in Resources */,
+				348016B22A26ECDD00102CC3 /* kounou_3.jpg in Resources */,
+				34B7BB0329480F8D004F420E /* iconweed.png in Resources */,
+				3459B45029EB64F900653CEF /* greenlabel.png in Resources */,
+				3459B44329DA6A9700653CEF /* GoogleService-Info.plist in Resources */,
+				348016A72A24AA9E00102CC3 /* rule3.jpg in Resources */,
+				34B7BAF92947F686004F420E /* iconprofileedit.png in Resources */,
+				348016B82A26ED4400102CC3 /* tejyun_1.jpg in Resources */,
+				3457A5A4290E9F830069DFD6 /* barfour.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14EA9DBBDEE93F9C3CCF8858 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GotoKusakariAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E32D30033CC2023CA8C8FD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GotoKusakariAPP/Pods-GotoKusakariAPP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GotoKusakariAPP/Pods-GotoKusakariAPP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GotoKusakariAPP/Pods-GotoKusakariAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34116ECD28EFDC9700EEAEFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3457A5A2290E0DCF0069DFD6 /* SignUpViewController.swift in Sources */,
+				34116ED928EFDC9700EEAEFE /* ViewController.swift in Sources */,
+				34251C772A60CCD800829E3F /* FacebookLoginViewController.swift in Sources */,
+				34D9E43A2A117C80009750F2 /* SigninItemViewController.swift in Sources */,
+				3459B44729E785F000653CEF /* FirstSelectionViewController.swift in Sources */,
+				34D9E43C2A117CA2009750F2 /* SigninRulesViewController.swift in Sources */,
+				34116ED528EFDC9700EEAEFE /* AppDelegate.swift in Sources */,
+				343CE3652AF9CA8F004E77B1 /* FBLoginBaseView.swift in Sources */,
+				34AF1E2C2999C0190037ADB2 /* ChatRoomViewController.swift in Sources */,
+				3457A59E290E0D7E0069DFD6 /* ProfileViewController.swift in Sources */,
+				3457A5AE292C51A50069DFD6 /* User.swift in Sources */,
+				344DE0C72A11BDAC0046D06F /* Message.swift in Sources */,
+				34CF82762A32A89E00426186 /* KusakariDateSaveViewController.swift in Sources */,
+				34CF82782A32ABE700426186 /* Candidate.swift in Sources */,
+				34D9E43E2A117CC2009750F2 /* SigninProcessViewController.swift in Sources */,
+				34B7BAFF29480551004F420E /* SignInViewController.swift in Sources */,
+				346C4199296CF61D00B39CBE /* UserPageViewController.swift in Sources */,
+				34AF1E2F2999C20F0037ADB2 /* ChatRoomTableViewCell.swift in Sources */,
+				34C0386C29558786008AFDC3 /* QAViewController.swift in Sources */,
+				34AF1E3C29AD8EFD0037ADB2 /* ChatInputAccesoryView.swift in Sources */,
+				345777A82972418100755667 /* FSCalendarViewController.swift in Sources */,
+				34AF1E24299332100037ADB2 /* ChatListViewController.swift in Sources */,
+				34251C792A60D21300829E3F /* FacebookProfileViewController.swift in Sources */,
+				3459B44529E39C5000653CEF /* UserListViewController.swift in Sources */,
+				3457A5AC292C4D690069DFD6 /* ProfileEditorViewController.swift in Sources */,
+				346C4197295A96AC00B39CBE /* CustumHeader.swift in Sources */,
+				34116ED728EFDC9700EEAEFE /* SceneDelegate.swift in Sources */,
+				34CF827A2A32AFA300426186 /* CandidateListViewController.swift in Sources */,
+				3459B44929E78F2100653CEF /* ChatRoom.swift in Sources */,
+				3457A5A0290E0DB50069DFD6 /* TermsViewController.swift in Sources */,
+				34D9E4382A1177B6009750F2 /* SigninMeritViewController.swift in Sources */,
+				34DF39E12978D47000C06D02 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34116EDA28EFDC9700EEAEFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34116EDB28EFDC9700EEAEFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34116EDF28EFDC9900EEAEFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34116EE028EFDC9900EEAEFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34116EE328EFDC9900EEAEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34116EE428EFDC9900EEAEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34116EE628EFDC9900EEAEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A3A923EE3C797C7E13D820 /* Pods-GotoKusakariAPP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GotoKusakariAPP/GotoKusakariAPP.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59Z59S76UP;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GotoKusakariAPP/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "五島草刈りアプリ";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "地図を使用するために位置情報を取得します";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madoka-suzuki.GotoKusakariAPP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34116EE728EFDC9900EEAEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86F3C6EF9618683B2ED8D4ED /* Pods-GotoKusakariAPP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GotoKusakariAPP/GotoKusakariAPP.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59Z59S76UP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GotoKusakariAPP/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "五島草刈りアプリ";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "地図を使用するために位置情報を取得します";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madoka-suzuki.GotoKusakariAPP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34116ECC28EFDC9700EEAEFE /* Build configuration list for PBXProject "GotoKusakariAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34116EE328EFDC9900EEAEFE /* Debug */,
+				34116EE428EFDC9900EEAEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34116EE528EFDC9900EEAEFE /* Build configuration list for PBXNativeTarget "GotoKusakariAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34116EE628EFDC9900EEAEFE /* Debug */,
+				34116EE728EFDC9900EEAEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34116EC928EFDC9700EEAEFE /* Project object */;
+}
